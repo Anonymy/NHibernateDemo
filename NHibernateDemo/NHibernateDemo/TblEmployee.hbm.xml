@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="NHibernate.Model" namespace="NHibernate.Model" xmlns="urn:nhibernate-mapping-2.2">
+    <class name="TblEmployee" table="TblEmployee">
+      <id name="EmployeeId" type="Int32">
+        <column name="EmployeeId" not-null="true" precision="10" scale="0" sql-type="int" />
+        <generator class="identity" />
+      </id>
+      <property name="FirstName" type="String">
+        <column name="FirstName" not-null="false" sql-type="nvarchar" />
+      </property>
+      <property name="LastName" type="String">
+        <column name="LastName" not-null="false" sql-type="nvarchar" />
+      </property>
+      <property name="Salary" type="Int32">
+        <column name="Salary" not-null="true" precision="10" scale="0" sql-type="int" />
+      </property>
+    </class>
+  </hibernate-mapping>
