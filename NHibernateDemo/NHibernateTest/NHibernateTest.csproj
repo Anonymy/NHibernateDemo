@@ -57,7 +57,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NHibernateDemo\NHibernate.Model.csproj">
+    <ProjectReference Include="..\NHibernate.Model\NHibernate.Model.csproj">
       <Project>{50338bbc-6590-4877-8715-d79712c71b3b}</Project>
       <Name>NHibernate.Model</Name>
     </ProjectReference>

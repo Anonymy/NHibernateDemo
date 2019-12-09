@@ -9,3 +9,14 @@ E:\资料\NHibernateDemo\NHibernateTest\obj\Debug\NHibernateTest.pdb
 E:\资料\NHibernateDemo\NHibernateTest\bin\Debug\hibernate.cfg.xml
 E:\资料\NHibernateDemo\NHibernateTest\bin\Debug\NHibernate.Model.dll
 E:\资料\NHibernateDemo\NHibernateTest\bin\Debug\NHibernate.Model.pdb
+E:\资料\Github\NHibernateDemo\NHibernateDemo\NHibernateTest\bin\Debug\hibernate.cfg.xml
+E:\资料\Github\NHibernateDemo\NHibernateDemo\NHibernateTest\bin\Debug\NHibernateTest.exe.config
+E:\资料\Github\NHibernateDemo\NHibernateDemo\NHibernateTest\bin\Debug\NHibernateTest.exe
+E:\资料\Github\NHibernateDemo\NHibernateDemo\NHibernateTest\bin\Debug\NHibernateTest.pdb
+E:\资料\Github\NHibernateDemo\NHibernateDemo\NHibernateTest\bin\Debug\NHibernate.dll
+E:\资料\Github\NHibernateDemo\NHibernateDemo\NHibernateTest\bin\Debug\NHibernate.Model.dll
+E:\资料\Github\NHibernateDemo\NHibernateDemo\NHibernateTest\bin\Debug\Iesi.Collections.dll
+E:\资料\Github\NHibernateDemo\NHibernateDemo\NHibernateTest\bin\Debug\NHibernate.Model.pdb
+E:\资料\Github\NHibernateDemo\NHibernateDemo\NHibernateTest\obj\Debug\NHibernateTest.csprojResolveAssemblyReference.cache
+E:\资料\Github\NHibernateDemo\NHibernateDemo\NHibernateTest\obj\Debug\NHibernateTest.exe
+E:\资料\Github\NHibernateDemo\NHibernateDemo\NHibernateTest\obj\Debug\NHibernateTest.pdb
