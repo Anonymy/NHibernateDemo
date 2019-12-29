@@ -20,3 +20,5 @@ E:\资料\Github\NHibernateDemo\NHibernateDemo\NHibernateTest\bin\Debug\NHiberna
 E:\资料\Github\NHibernateDemo\NHibernateDemo\NHibernateTest\obj\Debug\NHibernateTest.csprojResolveAssemblyReference.cache
 E:\资料\Github\NHibernateDemo\NHibernateDemo\NHibernateTest\obj\Debug\NHibernateTest.exe
 E:\资料\Github\NHibernateDemo\NHibernateDemo\NHibernateTest\obj\Debug\NHibernateTest.pdb
+E:\资料\Github\NHibernateDemo\NHibernateDemo\NHibernateTest\bin\Debug\NhibernateHelper.dll
+E:\资料\Github\NHibernateDemo\NHibernateDemo\NHibernateTest\bin\Debug\NhibernateHelper.pdb

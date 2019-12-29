@@ -14,5 +14,8 @@
       <property name="Salary" type="Int32">
         <column name="Salary" not-null="true" precision="10" scale="0" sql-type="int" />
       </property>
+      <property name="UpdateTime" type="DateTime">
+        <column name="UpdateTime" not-null="false" sql-type="date" />
+      </property>
     </class>
   </hibernate-mapping>

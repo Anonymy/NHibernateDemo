@@ -23,7 +23,8 @@ namespace NHibernate.Model
     /// There are no comments for SunCreate.Vipf.Domain.TblEmployee, SunCreate.Vipf.Domain in the schema.
     /// </summary>
     [DataContract(IsReference = true,Namespace="http://www.suncreate.net/2013/arch")]
-    public partial class TblEmployee:INotifyPropertyChanging, INotifyPropertyChanged, ICloneable {
+    public partial class TblEmployee :  INotifyPropertyChanging, INotifyPropertyChanged, ICloneable
+    {
 
         private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(System.String.Empty);
 
@@ -34,7 +35,9 @@ namespace NHibernate.Model
         private string _LastName;
 
         private int _Salary;
-    
+
+        private System.Nullable<System.DateTime> _UpdateTime;
+
         #region Extensibility Method Definitions
         
         /// <summary>
@@ -160,7 +163,28 @@ namespace NHibernate.Model
                 }
             }
         }
-    
+
+
+        /// <summary>
+        /// There are no comments for UpdateTime in the schema.
+        /// </summary>
+        [DataMember(Order = 5)]
+        public virtual System.Nullable<System.DateTime> UpdateTime
+        {
+            get
+            {
+                return this._UpdateTime;
+            }
+            set
+            {
+                if (this._UpdateTime != value)
+                {
+                    this.SendPropertyChanging();
+                    this._UpdateTime = value;
+                    this.SendPropertyChanged("UpdateTime");
+                }
+            }
+        }
         #region ICloneable Members
 
         public virtual object Clone()
@@ -170,6 +194,7 @@ namespace NHibernate.Model
             obj.FirstName = FirstName;
             obj.LastName = LastName;
             obj.Salary = Salary;
+            obj.UpdateTime = UpdateTime;
             return obj;
         }
 
